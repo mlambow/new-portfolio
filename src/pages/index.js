@@ -20,11 +20,11 @@ export default function Home() {
       
         <Navbar />
 
-      <section id='#hero' className='snap-center'>
+      <section id='hero' className='snap-center'>
         <Hero />
       </section>
 
-      <section id="#about" className='snap-center'>
+      <section id="about" className='snap-center'>
         <About />
       </section>
 
@@ -32,24 +32,24 @@ export default function Home() {
         <Experience />
       </section> */}
 
-      <section id='#skills' className='snap-start'>
+      <section id='skills' className='snap-start'>
         <Skills />
       </section>
 
-      <section id='#projects' className='snap-center'>
+      <section id='projects' className='snap-center'>
         <Projects />
       </section>
 
-      <section id='#contact' className='snap-start'>
+      <section id='contact' className='snap-start'>
         <Contact />
       </section>
 
-      <a href='#hero' 
+      <Link href='#hero' 
         className='justify-center items-center flex h-12 sticky bottom-5 cursor-pointer w-fit-content'>
         <ArrowUpCircleIcon 
           className='h-12 w-12 text-[#e2b844] grayscale filter hover:grayscale-0'            
         />
-      </a>
+      </Link>
     </div>
   )
 }

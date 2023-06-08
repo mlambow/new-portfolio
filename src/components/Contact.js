@@ -10,7 +10,6 @@ function Contact() {
         e.preventDefault()
         emailjs.sendForm('service_uuzteou', 'template_vt89i0a', form.current, 'AmO8kF6TQwbdoL9cx')
         .then((result) => {
-            console.log(result.text)
             if (result.text == '200' || 'OK') {
                 alert('Message sent successfully')
             } else {
@@ -18,11 +17,10 @@ function Contact() {
             }
             e.target.reset()
         }, (error) => {
-            console.log(error.text)
+            alert(error.text)
         })
     }
 
-    console.log(form.current)
     return(
         <div 
             className='h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl p-10 justify-evenly mx-auto items-center'

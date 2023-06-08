@@ -16,58 +16,63 @@ function Skills() {
       <div className='grid-cols-4 grid gap-5'>
         <Skill 
           src='https://shorturl.at/rAEL0' 
-          value='50' 
+          value='80' 
           name='JavaScript'  
         />
         <Skill 
           src='https://shorturl.at/zGJY8' 
-          value='50' 
+          value='75' 
           name='React'  
         />
         <Skill 
           src='https://shorturl.at/dFLN3' 
-          value='50' 
+          value='75' 
           name='NextJS'  
         />
         <Skill 
           src='https://shorturl.at/tzORU' 
-          value='50' 
+          value='72' 
           name='Tailwind CSS'  
         />
         <Skill 
           src='https://shorturl.at/flnE0' 
-          value='50' 
+          value='60' 
           name='Firebase'  
         />
         <Skill 
           src='https://shorturl.at/mNTY9' 
-          value='50' 
+          value='70' 
           name='GitHub'  
         />
         <Skill 
           src='https://shorturl.at/iosJ8' 
-          value='50'
+          value='70'
           name='CSS' 
         />
         <Skill 
           src='https://shorturl.at/qwO01' 
-          value='50'
+          value='66'
           name='Redux' 
         />
         <Skill 
           src='https://shorturl.at/drHR3' 
-          value='50'
+          value='58'
           name='NodeJS' 
         />
         <Skill 
           src='https://shorturl.at/juAGO' 
-          value='50'
+          value='85'
           name='HTML' 
         />
         <Skill 
           src='https://shorturl.at/zGJY8' 
-          value='50' 
+          value='65' 
           name='React Native' 
+        />
+        <Skill 
+          src='https://surl.li/hufrx' 
+          value='62' 
+          name='Sass' 
         />
       </div>
 

@@ -3,13 +3,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 
 function ExperienceCard({ title, listItem1, listItem2, listItem3, listItem4, src, src1, src2, src3, src4, src5, url, url1 }) {
-  // useEffect(() => {
-  //   function fetchData(url) {
-  //     window.onclick.call(url)
-  //   }
-  //   fetchData()
-  // }, [url])
-
+  
   return (
     <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[300px] h-[600px] md:w-[400px] lg:w-[500px] snap-center p-10 bg-[#292929] opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-200 overflow-hidden overflow-y-scroll scrollbar-thin scrollbar-thumb-[#90dbe0]'>
       <motion.img

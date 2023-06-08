@@ -20,7 +20,8 @@ function Projects() {
           listItem2='This is where I introduce myself and you are able to see all my builds and what I am capable of'
           listItem3='It is a simple and one page web portfolio'
           listItem4='I hope you enjoy and I love it!'
-          url='portfolio'
+          url='new-portfolio'
+          url1='#hero'
         />
         <ExperienceCard 
           title='Facebook Clone' 
@@ -34,7 +35,7 @@ function Projects() {
           listItem2='You will be able to post and see your posts'
           listItem3='It is mobile friendly web app as it is responsive to every device'
           listItem4='This is one of the builds i enjoyed building'
-           url='netflix-clone'
+           url='facebook-clone'
         />
         <ExperienceCard
           title='Netflix Clone' 
