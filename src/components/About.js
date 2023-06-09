@@ -50,11 +50,11 @@ function  About() {
         }}
         className='space-y-10 px-0 md:px-10'>
         <h3 className='text-4xl font-semibold'>Here is a little background</h3>
-        <p className='text-base'>I'm a very ambitious front-end developer who loves to learn and create things that lives in the internet! I'm looking for a front-end role in a IT company with the opportunity to work with the latest technologies on challenging and diverse projects.
+        <p className='text-base'>I&#39;m a very ambitious front-end developer who loves to learn and create things that lives in the internet! I&#39;m looking for a front-end role in a IT company with the opportunity to work with the latest technologies on challenging and diverse projects.
 
-        I'm a curious person who likes and enjoy challenges and learning new technologies and languages.
+        I&#39;m a curious person who likes and enjoy challenges and learning new technologies and languages.
 
-        I'm comfortable in working with JavaScript, React, Next.JS, Redux (React Context API), CSS and Tailwind-CSS and REST APIs, as I have used all these frameworks to create my projects with them, but I'm not limited to this list as I adapt to any framework.
+        I&#39;m comfortable in working with JavaScript, React, Next.JS, Redux (React Context API), CSS and Tailwind-CSS and REST APIs, as I have used all these frameworks to create my projects with them, but I&#39;m not limited to this list as I adapt to any framework.
 
         If I may define myself in one sentence that would be a family guy, a sports and music fanatic and a food lover!</p>
         

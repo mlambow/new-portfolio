@@ -28,7 +28,7 @@ function Contact() {
             <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Contact</h3>
 
             <div className='flex flex-col space-y-10 mt-10'>
-                <h4 className='text-4xl font-semibold text-center'>I got just what you need. Let's talk</h4>
+                <h4 className='text-4xl font-semibold text-center'>I got just what you need. Let&#39;s talk</h4>
 
                 <div className='space-y-10'>
                     <div className='flex items-center space-x-5 justify-center'>

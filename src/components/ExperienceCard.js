@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
+import Image from 'next/image'
 
 function ExperienceCard({ title, listItem1, listItem2, listItem3, listItem4, src, src1, src2, src3, src4, src5, url, url1 }) {
   
@@ -19,25 +20,30 @@ function ExperienceCard({ title, listItem1, listItem2, listItem3, listItem4, src
         <h4 className='text-4xl font-light uppercase'>{title}</h4>
         {/* tech used */}
         <div className='flex space-x-2 py-2'>
-          <img 
+          <Image 
             className='h-10 w-10 rounded-full'
             src={src1}
+            alt='skill'
           />
-          <img 
+          <Image 
             className='h-10 w-10 rounded-full'
             src={src2}
+            alt='skill'
           />
-          <img 
+          <Image 
             className='h-10 w-10 rounded-full'
             src={src3}
+            alt='skill'
           />
-          <img 
+          <Image 
             className='h-10 w-10 rounded-full'
             src={src4}
+            alt='skill'
           />
-          <img 
+          <Image 
           className='h-10 w-10 rounded-full'
           src={src5}
+          alt='skill'
         />
         </div>
         <ul className='list-disc space-y-4 ml-5 text-lg'>
