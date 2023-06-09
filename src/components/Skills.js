@@ -13,7 +13,9 @@ function Skills() {
 
       <h3 className='absolute uppercase tracking-[5px] text-gray-500 top-40 text-[11px] md:text-sm'>Hover over for current proficiency</h3>
 
-      <div className='grid-cols-3 md:grid-cols-4 grid gap-3 md:gap-5'>
+      <div 
+        className='grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 sm:gap-3 md:gap-5'
+        >
         <Skill 
           src='https://shorturl.at/rAEL0' 
           value='80' 

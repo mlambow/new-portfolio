@@ -27,7 +27,7 @@ function Hero() {
         transition={{
           duration: 1.2
         }}
-        className='rounded-full object-cover mx-auto relative w-32 h-32'
+        className='rounded-full object-cover mx-auto relative md:w-32 md:h-32 w-20 h-20'
         src='../../headPicture.jpg'
         alt='headPicture'
       />
