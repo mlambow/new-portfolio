@@ -34,7 +34,7 @@ function Projects() {
           listItem1='In this Facebook Clone you are able to login to and out from your Facebook account powered by Next.Auth and Facebook'
           listItem2='You will be able to post and see your posts'
           listItem3='It is mobile friendly web app as it is responsive to every device'
-          listItem4='This is one of the builds i enjoyed building'
+          listItem4='This is one of the builds I am enjoying building and it is coming soon'
            url='facebook-clone'
            url1=''
         />

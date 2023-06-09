@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import ProjectCard from './ProjectCard'
 
 
-function About() {
+function  About() {
   return (
     <motion.div 
     // initial={{
@@ -57,6 +57,12 @@ function About() {
         I'm comfortable in working with JavaScript, React, Next.JS, Redux (React Context API), CSS and Tailwind-CSS and REST APIs, as I have used all these frameworks to create my projects with them, but I'm not limited to this list as I adapt to any framework.
 
         If I may define myself in one sentence that would be a family guy, a sports and music fanatic and a food lover!</p>
+        
+        <div className='-ml-6'>
+          <a href="../../Wandile's CV.pdf" download className='heroButton text-xl gap-y-5 hover:text-[#e4c359]'>
+            Download CV
+          </a>
+        </div>
       </motion.div>
     </motion.div>
   )
