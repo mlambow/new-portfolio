@@ -38,9 +38,9 @@ export default function Home() {
       </section>
 
       <Link href='#hero' 
-        className='justify-center items-center flex h-12 sticky bottom-5 cursor-pointer w-fit-content'>
+        className='justify-center items-center flex h-8 sticky bottom-5 cursor-pointer w-fit-content'>
         <ArrowUpCircleIcon 
-          className='h-12 w-12 text-[#e2b844] grayscale filter hover:grayscale-0'            
+          className='h-8 w-8 md:h-10 md:w-10 text-[#e2b844] grayscale filter hover:grayscale-0'            
         />
       </Link>
     </div>

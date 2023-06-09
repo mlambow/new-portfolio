@@ -7,7 +7,8 @@ const nextConfig = {
       'platform-lookaside.fbsbx.com',
       'firebasestorage.googleapis.com',
       'shorturl.at',
-      'github.com'
+      'github.com',
+      'surl.li'
     ]
   }
 }

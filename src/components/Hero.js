@@ -32,15 +32,15 @@ function Hero() {
         alt='headPicture'
       />
       <div className='z-10'>
-        <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[13px]'>Software Developer</h2>
-        <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
+        <h2 className='text-[10px] md:text-sm uppercase text-gray-500 pb-2 tracking-[8px] sm:tracking-[10px] md:tracking-[13px]'>Software Developer</h2>
+        <h1 className='text-2xl md:text-3xl lg:text-5xl font-semibold px-10'>
           <span className='mr-3'>{text}</span>
           <Cursor cursorColor='#e4c359'/>
         </h1>
       </div>
-      <div className='pt-5 z-20'>
+      <div className='pt-1 md:pt-5 z-20'>
         <Link href='#about'>
-          <button className='heroButton'>About</button> 
+          <button className='heroButton '>About</button> 
         </Link>
         <Link href='#skills'>
           <button className='heroButton'>Skills</button>  

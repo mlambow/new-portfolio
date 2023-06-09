@@ -4,7 +4,7 @@ import ExperienceCard from './ExperienceCard'
 function Projects() {
   return (
     <div className='relative flex h-screen overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
-        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl z-20'>Projects</h3>
+        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500  text-lg md:text-xl lg:text-2xl z-20'>Projects</h3>
 
       <div className='flex w-full space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-[#e4c359]/60 absolute z-10 scrollbar-corner-[#e4c359]/60'>
         <ExperienceCard 
