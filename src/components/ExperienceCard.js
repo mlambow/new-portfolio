@@ -21,29 +21,39 @@ function ExperienceCard({ title, listItem1, listItem2, listItem3, listItem4, src
         {/* tech used */}
         <div className='flex space-x-2 py-2'>
           <Image 
-            className='h-10 w-10 rounded-full'
+            className='rounded-full'
             src={src1}
             alt='skill'
+            width={40}
+            height={40}
           />
           <Image 
-            className='h-10 w-10 rounded-full'
+            className='rounded-full'
             src={src2}
             alt='skill'
+            width={40}
+            height={40}
           />
           <Image 
-            className='h-10 w-10 rounded-full'
+            className='rounded-full'
             src={src3}
             alt='skill'
+            width={40}
+            height={40}
           />
           <Image 
-            className='h-10 w-10 rounded-full'
+            className='rounded-full'
             src={src4}
             alt='skill'
+            width={40}
+            height={40}
           />
           <Image 
-          className='h-10 w-10 rounded-full'
+          className='rounded-full'
           src={src5}
           alt='skill'
+          width={40}
+          height={40}
         />
         </div>
         <ul className='list-disc space-y-4 ml-5 text-lg'>

@@ -2,7 +2,6 @@ import React, { useRef } from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
 import Image from 'next/image'
-import headPicture from '../../public/headPicture.jpg'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 
