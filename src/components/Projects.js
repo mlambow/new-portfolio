@@ -36,6 +36,7 @@ function Projects() {
           listItem3='It is mobile friendly web app as it is responsive to every device'
           listItem4='This is one of the builds i enjoyed building'
            url='facebook-clone'
+           url1=''
         />
         <ExperienceCard
           title='Netflix Clone' 
@@ -95,7 +96,7 @@ function Projects() {
           listItem3='It is designed only with Tailwind CSS and used React to render all the components'
           listItem4='Give it a look!'
           url='bank-page'
-          url1=''
+          url1='https://bank-page-94a2a.web.app'
         />
       </div>
         <div className='w-full absoulte top-[30%] bg-[#e9a934]/20 left-0 h-[500px] -skew-y-12 -z-10' />
