@@ -1,7 +1,8 @@
 import React, { useRef } from 'react'
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
+import { SocialIcon } from 'react-social-icons'
 import emailjs from '@emailjs/browser'
-import 'react-toastify/dist/ReactToastify.css'
+import Link from 'next/link'
 
 function Contact() {
     const form = useRef()
@@ -38,9 +39,21 @@ function Contact() {
                         <EnvelopeIcon className='text-[#d8ae60] md:h-5 md:w-5 h-3 w-3 animate-ping'/>
                         <p className='text-base md:text-xl'>wandile.mlambo@yahoo.com</p>
                     </div>
-                    <div className='flex items-center space-x-5 justify-center'>
-                        <MapPinIcon className='text-[#d8ae60] md:h-5 md:w-5 h-3 w-3 animate-ping'/>
-                        <p className='text-base md:text-xl'>1356 Madiba Road Unit J</p>
+                    <div 
+                    className='flex items-center space-x-5 justify-center'>
+                        <SocialIcon 
+                            className='cursor-pointer animate-ping'
+                            fgColor='#d8ae60'
+                            bgColor='transparent'
+                            url='https://www.linkedin.com/in/wandile-mlambo-29aa7855'
+                            style={{ height: 35, width: 35 }}
+                        />
+                        <a 
+                            target='_blank'
+                            className='text-base xl:text-lg'
+                            href='https://www.linkedin.com/in/wandile-mlambo-29aa7855'>
+                            LinkedIn Account
+                        </a>
                     </div>
                 </div>
 
