@@ -63,7 +63,7 @@ function ExperienceCard({ title, listItem1, listItem2, listItem3, listItem4, src
           <li>{listItem4}</li>
         </ul>
         <div className='items-center justify-between flex space-x-3 mt-3 w-full -mb-5'>
-          <a href={url1} target='_blank' className='heroButton hover:text-[#e4c359] text-[10px] whitespace-nowrap'>Live Demo</a>
+          <a href={!url1 ? null : url1} target='_blank' className='heroButton hover:text-[#e4c359] text-[10px] whitespace-nowrap'>Live Demo</a>
           
           <a href={`https://github.com/mlambow/${url}`} target='_blank' className='heroButton hover:text-[#e4c359] text-[10px] whitespace-nowrap
           '>GitHub</a>

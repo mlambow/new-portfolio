@@ -7,13 +7,20 @@ import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
 import { ArrowUpCircleIcon } from '@heroicons/react/24/solid'
 import Link from 'next/link'
+import Head from 'next/head'
 
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='bg-[rgb(36,36,36)] h-screen text-white snap-mandatory overflow-x-hidden z-0 snap-y overflow-y-scroll scrollbar-track-gray-500/20 scrollbar-thumb-[#e4c359]/60 scrollbar'>
+    <div className='bg-[rgb(36,36,36)] h-screen text-white snap-mandatory overflow-x-hidden z-0 snap-y overflow-y-scroll scrollbar-track-gray-500/20 scrollbar-thumb-[#e4c359]/60 scrollbar-thin lg:scrollbar'>
+
+      <Head>
+        <title>
+          Wandile&#39;s Portfolio
+        </title>
+      </Head>
       
         <Navbar />
 

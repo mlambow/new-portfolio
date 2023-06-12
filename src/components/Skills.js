@@ -72,7 +72,7 @@ function Skills() {
           name='React Native' 
         />
         <Skill 
-          src='https://surl.li/hufrx' 
+          src='https://shorturl.at/yTX89' 
           value='62' 
           name='Sass' 
         />
