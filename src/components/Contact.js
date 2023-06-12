@@ -50,7 +50,7 @@ function Contact() {
                         />
                         <a 
                             target='_blank'
-                            className='text-base xl:text-lg'
+                            className='text-base xl:text-lg hover:text-[#d8ae60]'
                             href='https://www.linkedin.com/in/wandile-mlambo-29aa7855'>
                             LinkedIn Account
                         </a>
@@ -66,7 +66,7 @@ function Contact() {
                     </div>
                     <input placeholder='Subject' className='contactInput' type='text' name='subject'/>
                     <textarea placeholder='Message' className='contactInput scrollbar-thumb-[#d8ae60] scrollbar-thin' name='message'/>
-                    <button type='submit' className='bg-[#d8ae60] py-3 md:py-5 md:px-18 rounded-full text-black font-bold text-sm md:text-base'>Submit</button>
+                    <button type='submit' className='bg-[#d8ae60] py-3 md:py-5 md:px-18 rounded-full text-black font-bold text-sm md:text-base hover:text-[#d8ae60] hover:bg-black'>Submit</button>
                 </form>
             </div>
         </div>
