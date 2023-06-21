@@ -61,11 +61,11 @@ function Contact() {
                     ref={form} onSubmit={sendEmail}     
                     className='flex flex-col space-y-2 w-fit mx-auto text-white'>
                     <div className='md:space-x-2 space-y-2 md:flex'>
-                        <input placeholder='Name' className='contactInput w-full' type='text' name='user_name'/>
-                        <input placeholder='Email' className='contactInput w-full' type='email' name='user_email'/>
+                        <input placeholder='Name' className='contactInput w-full' type='text' name='user_name' required/>
+                        <input placeholder='Email' className='contactInput' type='email' name='user_email' required/>
                     </div>
-                    <input placeholder='Subject' className='contactInput' type='text' name='subject'/>
-                    <textarea placeholder='Message' className='contactInput scrollbar-thumb-[#d8ae60] scrollbar-thin' name='message'/>
+                    <input placeholder='Subject' className='contactInput' type='text' name='subject' required/>
+                    <textarea placeholder='Message' className='contactInput scrollbar-thumb-[#d8ae60] scrollbar-thin' name='message'  required/>
                     <button type='submit' className='bg-[#d8ae60] py-3 md:py-5 md:px-18 rounded-full text-black font-bold text-sm md:text-base hover:text-[#d8ae60] hover:bg-black'>Submit</button>
                 </form>
             </div>
