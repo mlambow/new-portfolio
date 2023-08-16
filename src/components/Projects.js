@@ -64,7 +64,7 @@ function Projects() {
           listItem2='You only allow it to read your location and then it will render your weather'
           listItem3='You will be able to see the hourly, day and weekly weather'
           listItem4="It's a must check app"
-          url='weather-app'
+          url='weather'
           url1='https://weather-app-d848e.web.app'
         />
         <ExperienceCard
